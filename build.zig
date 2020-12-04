@@ -5,7 +5,7 @@ pub fn build(b: *Builder) void {
     const mode = b.standardReleaseOptions();
 
     {
-        var exe = b.addExecutable("adventofcode_2020", "src/03.zig");
+        var exe = b.addExecutable("adventofcode_2020", "src/04.zig");
         exe.install();
 
         const play = b.step("run", "Run current puzzle");
